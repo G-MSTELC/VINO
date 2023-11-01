@@ -17,7 +17,7 @@
         <span><img src="https://s2.svgbox.net/materialui.svg?ic=wine_bar&color=fff" width="32" height="32">VINO</span>
         <div>
             <input type="checkbox" id="toggler" hidden>
-            <label for "toggler" class="toggler-label">
+            <label for="toggler" class="toggler-label">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -25,7 +25,6 @@
             <div id="navbarSupportedContent">
                 <ul>
                     <li><a href="{{ route('home') }}">Accueil</a></li>
-                    <!-- <li><a href="#!">À propos</a></li> -->
                     @if (auth()->check())
                         <li>
                             <a href="{{ route('logout') }}"
@@ -56,9 +55,9 @@
     @yield('content')
 
     <!-- Footer -->
-    <!-- <footer class="py-5 bg-dark">
-        <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-    </footer> -->
+     <footer class="py-5 bg-dark">
+        <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Our Website 2023</p></div>
+    </footer> 
     <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS -->
